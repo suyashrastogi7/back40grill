@@ -6,6 +6,8 @@ import Intro from "./Components/Intro";
 import Menu from "./Components/Menu";
 import Steaks from "./Components/Steaks";
 import Bar from "./Components/Bar";
+import Offers from "./Components/Offers";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Menu />
       <Steaks />
       <Bar />
+      <Offers />
+      <Footer />
     </div>
   );
 }
