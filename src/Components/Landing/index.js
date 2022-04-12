@@ -14,12 +14,11 @@ const Landing = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        height: "100vh",
       }}
       strength={300}
     >
       <div className="h-screen w-screen bg-cover bg-center bg-no-repeat flex justify-center items-center">
-        <h1 className="2xl:text-8xl text-white font-bold tracking-wide">
+        <h1 className="2xl:text-8xl lg:text-8xl md:text-7xl text-white font-bold tracking-wide">
           B40G
         </h1>
       </div>

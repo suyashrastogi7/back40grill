@@ -8,29 +8,37 @@ const Footer = () => {
     <div className="h-screen w-screen bg-[#1D1213] p-7 flex flex-col justify-center items-center">
       <div className="grid grid-cols-5 gap-2 text-white justify-center">
         <div>
-          <h1 className="2xl:text-4xl my-5">LOGO</h1>
+          <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl my-5">LOGO</h1>
         </div>
         <div>
-          <h1 className="2xl:text-4xl uppercase my-5">Visit Us</h1>
-          <h1 className="my-5 text-xl">Location</h1>
-          <p className="w-2/3 text-xl">
+          <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl uppercase my-5">
+            Visit Us
+          </h1>
+          <h1 className="my-5 lg:text-xl md:text-lg">Location</h1>
+          <p className="lg:w-2/3 md:w-3/4 lg:text-xl md:text-lg">
             745 Island Hwy E, Parksville, BC V9P 1T6, Canada
           </p>
         </div>
         <div>
-          <h1 className="2xl:text-4xl uppercase my-5">our Hours</h1>
-          <p className="my-5 text-xl w-1/2">Monday - Friday 10 am - 8 pm</p>
-          <h1 className="text-xl">Closed on Sundays</h1>
+          <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl uppercase my-5">
+            our Hours
+          </h1>
+          <p className="my-5 lg:text-xl md:text-lg lg:w-2/3 md:w-3/4">
+            Monday - Friday 10 am - 8 pm
+          </p>
+          <h1 className="lg:text-xl md:text-lg">Closed on Sundays</h1>
         </div>
         <div>
-          <h1 className="2xl:text-4xl uppercase my-5">Keep in Touch</h1>
-          <p className="my-5 text-xl">
+          <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl uppercase my-5">
+            Keep in Touch
+          </h1>
+          <p className="my-5 lg:text-xl md:text-lg ">
             Follow us on{" "}
             <a className="underline" href="https://www.instagram.com">
               Instagram
             </a>
           </p>
-          <p className="text-xl">
+          <p className="lg:text-xl md:text-lg">
             Follow us on{" "}
             <a className="underline" href="https://www.instagram.com">
               Facebook
@@ -46,7 +54,7 @@ const Footer = () => {
               window.scrollTo(0, 0);
             }}
           />
-          <h1 className="2xl:text-2xl text-center">Back to Top</h1>
+          <h1 className="2xl:text-2xl md:text-xl text-center">Back to Top</h1>
         </div>
       </div>
       <div className="w-full">

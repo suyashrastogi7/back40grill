@@ -13,23 +13,29 @@ const Intro = () => {
   return (
     <div className="h-screen w-screen flex items-center">
       <div className="p-9">
-        <h1 className="text-[#24191E] text-center 2xl:text-5xl">B40G</h1>
+        <h1 className="text-[#24191E] text-center 2xl:text-5xl lg:text-5xl md:text-4xl">
+          B40G
+        </h1>
         <div className="flex">
-          <h1 className="uppercase text-[#38292a] 2xl:text-9xl opacity-50">
+          <h1 className="uppercase text-[#38292a] 2xl:text-9xl lg:text-8xl md:text-8xl opacity-50">
             The
           </h1>
-          <h1 className="uppercase text-[#FF971D] 2xl:text-9xl 2xl:ml-6">
+          <h1 className="uppercase text-[#FF971D] 2xl:text-9xl lg:text-8xl md:text-8xl 2xl:ml-6 lg:ml-5 md:ml-5">
             Best
           </h1>
         </div>
-        <h1 className="uppercase text-[#38292A] 2xl:text-9xl">Burgers</h1>
+        <h1 className="uppercase text-[#38292A] 2xl:text-9xl lg:text-8xl md:text-8xl">
+          Burgers
+        </h1>
         <div className="relative">
           <button
             onMouseOver={() => setShow(true)}
             onMouseLeave={() => setShow(false)}
             className="flex justify-center items-center mx-auto px-6 py-5 mt-6 rounded-xl border-2 transition ease-in-out border-[#38292A] hover:bg-[#38292A] text-[#38292A] hover:text-white"
           >
-            <h1 className="2xl:text-4xl ">in Parksville</h1>
+            <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl">
+              in Parksville
+            </h1>
             {show ? (
               <img
                 src={map_drop_light}
@@ -47,9 +53,9 @@ const Intro = () => {
           <div
             className={`text-center ${
               show ? "opacity-100" : "opacity-0"
-            } absolute left-12 top-24 text-[#24191E] border-2 border-[#24191E] transition ease-in-out tooltip px-5 py-2 rounded-xl w-80`}
+            } absolute 2xl:left-12 lg:left-2 top-24 text-[#24191E] border-2 border-[#24191E] transition ease-in-out tooltip px-5 py-2 rounded-xl w-80`}
           >
-            <h1 className="uppercase 2xl:text-2xl">drop by</h1>
+            <h1 className="uppercase 2xl:text-2xl lg:text-xl">drop by</h1>
             <p className="font-semibold">
               745 Island Hwy E, Parksville, BC V9P 1T6, Canada
             </p>
