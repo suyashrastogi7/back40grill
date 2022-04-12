@@ -59,7 +59,7 @@ const Intro = () => {
       <div className="bg-[#F5E9DA] grow h-full flex justify-center items-center">
         <img
           src={burger}
-          className="h-5/6 rounded-xl hover:shadow-2xl"
+          className="h-5/6 rounded-xl hover:shadow-2xl hover:scale-105 hover:-translate-y-3 transition ease-in-out"
           alt="burger"
         />
       </div>
