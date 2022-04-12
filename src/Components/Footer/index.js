@@ -41,7 +41,7 @@ const Footer = () => {
           <img
             src={up}
             alt="up arrow"
-            className="h-12 my-5 cursor-pointer"
+            className="h-12 w-12 mx-auto my-5 cursor-pointer hover:opacity-75 transition ease-in-out"
             onClick={() => {
               window.scrollTo(0, 0);
             }}
@@ -55,9 +55,9 @@ const Footer = () => {
           className="mx-auto h-64 w-full my-9 rounded-xl "
           style={{ border: 0 }}
           title="map box"
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       <h1 className="text-4xl text-white tracking-wide">

@@ -1,3 +1,14 @@
 .rounded-shadow {
     background: radial-gradient(50% 50% at 50% 50%, #1D1213 0%, rgba(196, 196, 196, 0) 100%);
 }
+
+.tooltip::after {
+    content: "  ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}

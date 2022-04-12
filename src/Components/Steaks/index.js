@@ -11,14 +11,26 @@ const Steaks = () => {
       <div className="flex flex-col my-3">
         <div className="flex mb-4 mx-auto">
           <div>
-            <img className="h-72" src={frame1} alt="frame1" />
+            <img
+              className="h-72 hover:scale-105 transition ease-in-out hover:-translate-y-4 hover:mr-4"
+              src={frame1}
+              alt="frame1"
+            />
           </div>
           <div>
-            <img className="h-72 ml-4" src={frame2} alt="frame2" />
+            <img
+              className="h-72 ml-4 hover:scale-105 transition ease-in-out hover:-translate-y-4 hover:ml-8"
+              src={frame2}
+              alt="frame2"
+            />
           </div>
         </div>
         <div className="mx-auto">
-          <img className="h-80" src={frame3} alt="frame3" />
+          <img
+            className="h-80 hover:scale-105 transition ease-in-out hover:-translate-y-4 hover:mt-4"
+            src={frame3}
+            alt="frame3"
+          />
         </div>
       </div>
     </div>
