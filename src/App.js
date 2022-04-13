@@ -1,5 +1,6 @@
 import "./App.css";
-
+import { useRef } from "react";
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { Element, Link } from "react-scroll";
 
 //Images
@@ -15,6 +16,7 @@ import Offers from "./Components/Offers";
 import Footer from "./Components/Footer";
 
 function App() {
+  const containerRef = useRef(null);
   const screens = [
     "landing",
     "intro",
@@ -26,6 +28,37 @@ function App() {
   ];
   return (
     <div className="App">
+      <LocomotiveScrollProvider
+        options={{
+          smooth: true,
+        }}
+        watch={[]}
+        containerRef={containerRef}
+      >
+        <main data-scroll data-scroll-speed-section ref={containerRef}>
+          <Element data-scroll data-scroll-speed name="landing">
+            <Landing data-scroll data-scroll-speed />
+          </Element>
+          <Element data-scroll data-scroll-speed name="intro">
+            <Intro data-scroll data-scroll-speed />
+          </Element>
+          <Element data-scroll data-scroll-speed name="menu">
+            <Menu data-scroll data-scroll-speed />
+          </Element>
+          <Element data-scroll data-scroll-speed name="steaks">
+            <Steaks data-scroll data-scroll-speed />
+          </Element>
+          <Element data-scroll data-scroll-speed name="bar">
+            <Bar data-scroll data-scroll-speed />
+          </Element>
+          <Element data-scroll data-scroll-speed name="offers">
+            <Offers data-scroll data-scroll-speed />
+          </Element>
+          <Element data-scroll data-scroll-speed name="footer">
+            <Footer data-scroll data-scroll-speed />
+          </Element>
+        </main>
+      </LocomotiveScrollProvider>
       <div className="fixed right-12 flex flex-col z-50 top-1/2 -translate-y-1/2">
         {screens.map((item, i) => {
           return (
@@ -39,27 +72,6 @@ function App() {
           );
         })}
       </div>
-      <Element name="landing">
-        <Landing />
-      </Element>
-      <Element name="intro">
-        <Intro />
-      </Element>
-      <Element name="menu">
-        <Menu />
-      </Element>
-      <Element name="steaks">
-        <Steaks />
-      </Element>
-      <Element name="bar">
-        <Bar />
-      </Element>
-      <Element name="offers">
-        <Offers />
-      </Element>
-      <Element name="footer">
-        <Footer />
-      </Element>
     </div>
   );
 }
