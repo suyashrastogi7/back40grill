@@ -11,8 +11,8 @@ import frame33 from "../../Images/Frame33.png";
 const Steaks = () => {
   return (
     <div className="h-screen w-screen justify-center p-9 items-center bg-[#F5E9DA]">
-      <div className="flex flex-col my-3 md:inline-block hidden">
-        <div className="flex md:flex-row flex-col mb-4 mx-auto">
+      <div className="flex flex-col w-full my-3 md:inline-block hidden">
+        <div className="flex md:flex-row flex-col justify-center items-center mb-4 mx-auto">
           <div>
             <img
               className="lg:h-72 md:h-64 hover:scale-105 transition ease-in-out hover:-translate-y-4 hover:mr-4 md:mb-0 mb-9"
@@ -30,7 +30,7 @@ const Steaks = () => {
         </div>
         <div className="mx-auto">
           <img
-            className="lg:h-80 md:h-72 hover:scale-105 transition ease-in-out hover:-translate-y-4 hover:mt-4"
+            className="lg:h-80 md:h-72 hover:scale-105 transition ease-in-out hover:-translate-y-4 hover:mt-4 mx-auto"
             src={frame3}
             alt="frame3"
           />

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="h-screen w-screen bg-[#1D1213] p-7 flex flex-col md:justify-center justify-start items-center">
       <div className="md:inline-block hidden ">
-        <div className="grid md:grid-cols-5 grid-rows-2 gap-2 text-white justify-center">
+        <div className="grid grid-cols-5 gap-2 text-white justify-center">
           <div>
             <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl my-5">LOGO</h1>
           </div>

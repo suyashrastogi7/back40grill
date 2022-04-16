@@ -14,6 +14,7 @@ import Steaks from "./Components/Steaks";
 import Bar from "./Components/Bar";
 import Offers from "./Components/Offers";
 import Footer from "./Components/Footer";
+import Hamburger from "./Components/Hamburger";
 
 function App() {
   const containerRef = useRef(null);
@@ -28,6 +29,9 @@ function App() {
   ];
   return (
     <div className="App">
+      <div className="md:hidden inline-block sticky z-50">
+        <Hamburger />
+      </div>
       <LocomotiveScrollProvider
         options={{
           smooth: true,
