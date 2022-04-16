@@ -8,15 +8,15 @@ import patio from "../../Images/patio.png";
 
 const Bar = () => {
   return (
-    <div className="h-screen w-screen bg-[#F5E9DA] grid grid-cols-3 gap-16 py-7">
+    <div className="h-screen w-screen bg-[#F5E9DA] md:grid md:grid-cols-3 flex flex-col gap-16 py-7 md:px-0 px-9">
       <div className="flex justify-center items-center">
-        <h1 className="text-8xl text-[#1D1213] text-vertical rotate-180">
+        <h1 className="md:text-8xl text-7xl text-[#1D1213] md:text-vertical text-none md:rotate-180 rotate-0">
           Patio and Bar.
         </h1>
       </div>
       <div className="flex flex-col justify-center items-center grow">
         <img src={patio} alt="patio" className=" mb-9" />
-        <p className="w-4/5">
+        <p className="md:w-4/5 md:text-lg text-xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit tortor
           dignissim lacus neque neque. Egestas in amet, quis quam vitae. Sit
           viverra scelerisque ullamcorper amet vulputate a vitae.

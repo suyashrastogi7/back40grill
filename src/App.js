@@ -59,7 +59,7 @@ function App() {
           </Element>
         </main>
       </LocomotiveScrollProvider>
-      <div className="fixed right-12 flex flex-col z-50 top-1/2 -translate-y-1/2">
+      <div className="fixed md:inline-block hidden right-12 flex flex-col z-50 top-1/2 -translate-y-1/2">
         {screens.map((item, i) => {
           return (
             <Link to={item} key={i} spy={true} smooth={true} duration={500}>
