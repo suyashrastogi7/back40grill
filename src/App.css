@@ -5,6 +5,17 @@ p {
   font-family: 'Inter', sans-serif;
 }
 
+@media screen and (max-width: 400px) {
+  .low {
+    height: auto;
+  }
+  .low-img {
+    height: 60%;
+    width: 60%;
+    margin-top: 30%;
+  }
+}
+
 body {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */

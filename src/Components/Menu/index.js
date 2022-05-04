@@ -9,7 +9,7 @@ import food2 from "../../Images/food2.png";
 
 const Menu = () => {
   return (
-    <div className="h-screen w-screen bg-[#F5E9DA] md:grid md:grid-cols-3 flex flex-col items-center justify-around py-7">
+    <div className="h-screen low w-screen bg-[#F5E9DA] md:grid md:grid-cols-3 flex flex-col items-center justify-around py-7">
       <div className="md:flex md:flex-col static md:h-full h-auto items-center justify-around">
         <p className="2xl:w-1/2 md:inline-block hidden lg:w-2/3 md:w-1/2 2xl:text-xl lg:text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit pharetra,

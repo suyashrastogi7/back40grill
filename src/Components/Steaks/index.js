@@ -10,7 +10,7 @@ import frame33 from "../../Images/Frame33.png";
 
 const Steaks = () => {
   return (
-    <div className="h-screen w-screen justify-center p-9 items-center bg-[#F5E9DA]">
+    <div className="h-screen low w-screen justify-center p-9 items-center bg-[#F5E9DA]">
       <div className="flex flex-col w-full my-3 md:inline-block hidden">
         <div className="flex md:flex-row flex-col justify-center items-center mb-4 mx-auto">
           <div>

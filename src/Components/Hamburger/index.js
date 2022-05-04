@@ -21,14 +21,13 @@ const Hamburger = () => {
       </ul>
 
       <div className="mobile-menu-section">
-        <input type="checkbox" id="btnControl" />
-        <label
-          className="btn"
-          for="btnControl"
-          id="toggle"
+        <input
+          type="checkbox"
+          id="btnControl"
           onClick={() => setShow((prev) => !prev)}
-        >
-          <div className="hamburger hamburger-container">
+        />
+        <label className="btn" for="btnControl" id="toggle">
+          <div className="hamburger hamburger-container z-50">
             <span></span>
             <span></span>
             <span></span>

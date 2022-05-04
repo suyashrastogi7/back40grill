@@ -7,8 +7,8 @@ import instagram from "../../Images/instagram.svg";
 
 const Offers = () => {
   return (
-    <div className="h-screen w-screen md:pb-7 pb-7 bg-[#F5E9DA]">
-      <div className="h-64 bg-white">
+    <div className="h-screen w-screen md:pb-7 pb-7 bg-[#F5E9DA] low">
+      <div className="h-64 low bg-white">
         <img src={eye} alt="keep an eye out" className="h-96 mx-auto" />
       </div>
       <div className="h-2/3 py-9 text-center flex flex-col justify-end px-9 md:px-0">

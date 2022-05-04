@@ -32,37 +32,39 @@ function App() {
       <div className="md:hidden inline-block sticky z-50">
         <Hamburger />
       </div>
-      <LocomotiveScrollProvider
-        options={{
-          smooth: true,
-        }}
-        watch={[]}
-        containerRef={containerRef}
-      >
-        <main data-scroll data-scroll-speed-section ref={containerRef}>
-          <Element data-scroll data-scroll-speed name="landing">
-            <Landing data-scroll data-scroll-speed />
-          </Element>
-          <Element data-scroll data-scroll-speed name="intro">
-            <Intro data-scroll data-scroll-speed />
-          </Element>
-          <Element data-scroll data-scroll-speed name="menu">
-            <Menu data-scroll data-scroll-speed />
-          </Element>
-          <Element data-scroll data-scroll-speed name="steaks">
-            <Steaks data-scroll data-scroll-speed />
-          </Element>
-          <Element data-scroll data-scroll-speed name="bar">
-            <Bar data-scroll data-scroll-speed />
-          </Element>
-          <Element data-scroll data-scroll-speed name="offers">
-            <Offers data-scroll data-scroll-speed />
-          </Element>
-          <Element data-scroll data-scroll-speed name="footer">
-            <Footer data-scroll data-scroll-speed />
-          </Element>
-        </main>
-      </LocomotiveScrollProvider>
+      <div>
+        <LocomotiveScrollProvider
+          options={{
+            smooth: true,
+          }}
+          watch={[]}
+          containerRef={containerRef}
+        >
+          <main data-scroll data-scroll-speed-section ref={containerRef}>
+            <Element data-scroll data-scroll-speed name="landing">
+              <Landing data-scroll data-scroll-speed />
+            </Element>
+            <Element data-scroll data-scroll-speed name="intro">
+              <Intro data-scroll data-scroll-speed />
+            </Element>
+            <Element data-scroll data-scroll-speed name="menu">
+              <Menu data-scroll data-scroll-speed />
+            </Element>
+            <Element data-scroll data-scroll-speed name="steaks">
+              <Steaks data-scroll data-scroll-speed />
+            </Element>
+            <Element data-scroll data-scroll-speed name="bar">
+              <Bar data-scroll data-scroll-speed />
+            </Element>
+            <Element data-scroll data-scroll-speed name="offers">
+              <Offers data-scroll data-scroll-speed />
+            </Element>
+            <Element data-scroll data-scroll-speed name="footer">
+              <Footer data-scroll data-scroll-speed />
+            </Element>
+          </main>
+        </LocomotiveScrollProvider>
+      </div>
       <div className="fixed md:inline-block hidden right-12 flex flex-col z-50 top-1/2 -translate-y-1/2">
         {screens.map((item, i) => {
           return (

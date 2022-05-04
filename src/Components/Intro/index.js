@@ -11,7 +11,7 @@ import map_drop_dark from "../../Images/map-drop-dark.svg";
 const Intro = () => {
   const [show, setShow] = useState(false);
   return (
-    <div className="h-screen w-screen flex md:flex-row flex-col items-center">
+    <div className="h-screen low w-screen flex md:flex-row flex-col items-center">
       <div className="p-9 md:grow-0 grow">
         <h1 className="text-[#24191E] text-center 2xl:text-5xl lg:text-5xl md:text-4xl text-3xl">
           B40G
@@ -67,7 +67,7 @@ const Intro = () => {
       <div className="bg-[#F5E9DA] md:grow grow-0 md:h-full h-2/5 md:mt-0 mt-9 md:w-auto w-full md:flex md:justify-center md:items-center inline-block">
         <img
           src={burger}
-          className="md:h-5/6 h-full md:mx-0 mx-auto md:-translate-y-0 -translate-y-12 rounded-xl hover:shadow-2xl hover:scale-105 md:hover:-translate-y-3 hover:-translate-y-16 transition ease-in-out"
+          className="md:h-5/6 low-img h-full md:mx-0 mx-auto md:-translate-y-0 -translate-y-12 rounded-xl hover:shadow-2xl hover:scale-105 md:hover:-translate-y-3 hover:-translate-y-16 transition ease-in-out"
           alt="burger"
         />
       </div>

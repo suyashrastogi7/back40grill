@@ -8,7 +8,7 @@ import patio from "../../Images/patio.png";
 
 const Bar = () => {
   return (
-    <div className="h-screen w-screen bg-[#F5E9DA] md:grid md:grid-cols-3 flex flex-col gap-16 py-7 md:px-0 px-9">
+    <div className="h-screen low w-screen bg-[#F5E9DA] md:grid md:grid-cols-3 flex flex-col gap-16 py-7 md:px-0 px-9">
       <div className="flex justify-center items-center">
         <h1 className="md:text-8xl text-7xl text-[#1D1213] md:text-vertical text-none w-full md:-rotate-90">
           Patio and Bar.
