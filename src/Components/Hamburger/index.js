@@ -28,12 +28,12 @@ const Hamburger = () => {
         </ul>
         <div className="flex mt-6">
           <img
-            className="h-16 w-16 mr-2"
+            className="h-12 w-12 mr-2"
             src={Instagram}
             alt="instagram_icon"
           />{" "}
           <div className="border-r-2 border-white mr-2"></div>
-          <img className="h-16 w-16" src={Facebook} alt="facebook_icon" />
+          <img className="h-12 w-12" src={Facebook} alt="facebook_icon" />
         </div>
       </div>
     </div>
