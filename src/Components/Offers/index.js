@@ -11,7 +11,7 @@ const Offers = () => {
       <div className="h-64 low bg-white">
         <img src={eye} alt="keep an eye out" className="h-96 mx-auto" />
       </div>
-      <div className="h-2/3 py-9 text-center flex flex-col justify-end px-9 md:px-0">
+      <div className="h-2/3 md:py-9 py-2 text-center flex flex-col justify-end px-5 md:px-0">
         <h1 className="2xl:text-8xl lg:text-7xl md:text-7xl text-5xl text-center">
           KEEP AN EYE OUT
         </h1>

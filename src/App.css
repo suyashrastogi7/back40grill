@@ -4,7 +4,9 @@ h1 {
 p {
   font-family: 'Inter', sans-serif;
 }
-
+.wrapped {
+  z-index: 999;
+}
 @media screen and (max-width: 400px) {
   .low {
     height: auto;

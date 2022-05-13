@@ -29,9 +29,6 @@ function App() {
   ];
   return (
     <div className="App">
-      <div className="md:hidden inline-block sticky z-50">
-        <Hamburger />
-      </div>
       <div>
         <LocomotiveScrollProvider
           options={{
@@ -77,6 +74,9 @@ function App() {
             </Link>
           );
         })}
+      </div>
+      <div className="md:hidden block wrapped">
+        <Hamburger />
       </div>
     </div>
   );
