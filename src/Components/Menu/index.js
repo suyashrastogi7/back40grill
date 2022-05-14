@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //CSS
 import "./index.css";
@@ -38,7 +39,9 @@ const Menu = () => {
           vel enim, sap
         </h1>
         <button className="uppercase bg-[#FF971D] hover:bg-[#1D1213] transition ease-in-out 2xl:text-3xl lg:text-2xl md:text-xl text-2xl text-white px-6 py-2 rounded-xl">
-          <h1>View Menu</h1>
+          <Link to="/menu">
+            <h1>View Menu</h1>
+          </Link>
         </button>
       </div>
     </div>

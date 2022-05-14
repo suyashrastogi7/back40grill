@@ -12,7 +12,7 @@ const Intro = () => {
   const [show, setShow] = useState(false);
   return (
     <div className="h-screen low w-screen flex md:flex-row flex-col items-center z-10">
-      <div className="p-9 md:grow-0 grow">
+      <div className="p-9 md:grow-0 grow md:ml-9 ml-0">
         <h1 className="text-[#24191E] text-center 2xl:text-5xl lg:text-5xl md:text-4xl text-3xl">
           B40G
         </h1>

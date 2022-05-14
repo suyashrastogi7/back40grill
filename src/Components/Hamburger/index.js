@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HamburgerButton } from "react-hamburger-button";
 import Instagram from "../../Images/instagram_light.svg";
 import Facebook from "../../Images/facebook_light.svg";
+import { Link } from "react-router-dom";
 
 import "./index.css";
 
@@ -9,7 +10,7 @@ const Hamburger = () => {
   const [show, setShow] = useState(false);
   return (
     <div className="h-16 w-16 fixed top-4 right-0">
-      <div className="z-10 fixed rounded-full p-3 bg-gray-400">
+      <div className="z-10 fixed rounded-full p-3 bg-gray-500">
         <HamburgerButton
           open={show}
           onClick={() => setShow((prev) => !prev)}
@@ -22,9 +23,15 @@ const Hamburger = () => {
       </div>
       <div className={`${show ? "visible" : ""} menu`}>
         <ul>
-          <li>Home</li>
-          <li>Menu</li>
-          <li>Location</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/menu">Menu</Link>
+          </li>
+          <li>
+            <Link to="/">Location</Link>
+          </li>
         </ul>
         <div className="flex mt-6">
           <img

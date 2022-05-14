@@ -2,6 +2,7 @@ import React from "react";
 
 //Images
 import up from "../../Images/up.svg";
+import logo from "../../Images/logo.svg";
 
 const Footer = () => {
   return (
@@ -69,7 +70,7 @@ const Footer = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <h1 className="text-4xl text-white tracking-wide">
+        <h1 className="text-4xl text-center text-white tracking-wide">
           Reservations on Call !
         </h1>
       </div>
