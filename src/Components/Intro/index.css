@@ -3,7 +3,7 @@
 }
 
 .tooltip::after {
-    content: "  ";
+  content: "  ";
   position: absolute;
   bottom: 100%;  /* At the top of the tooltip */
   left: 50%;
@@ -11,4 +11,11 @@
   border-width: 10px;
   border-style: solid;
   border-color: transparent transparent black transparent;
+}
+
+.custom-shadow {
+  background: radial-gradient(55% 55% at 50% 50%, #1D1213 0%, rgba(196, 196, 196, 0.375) 90%);
+  background-blend-mode: multiply;
+  position: absolute;
+  top: 0;
 }

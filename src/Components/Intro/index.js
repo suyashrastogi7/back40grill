@@ -64,7 +64,8 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#F5E9DA] md:grow grow-0 md:h-full h-2/5 md:mt-0 mt-9 md:w-auto w-full md:flex md:justify-center md:items-center inline-block">
+      <div className="bg-[#F5E9DA] md:grow grow-0 md:h-full h-2/5 md:mt-0 mt-9 md:w-auto w-full md:flex md:justify-center md:items-center inline-block relative">
+        <div className="custom-shadow h-full w-full -translate-x-13"></div>
         <img
           src={burger}
           className="md:h-5/6 low-img h-full md:mx-0 mx-auto md:-translate-y-0 -translate-y-12 rounded-xl hover:shadow-2xl hover:scale-105 md:hover:-translate-y-3 hover:-translate-y-16 transition ease-in-out"

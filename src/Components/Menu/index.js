@@ -13,10 +13,9 @@ const Menu = () => {
     <div className="h-screen low w-screen bg-[#F5E9DA] md:grid md:grid-cols-3 flex flex-col items-center justify-around py-7">
       <div className="md:flex md:flex-col static md:h-full h-auto items-center justify-around">
         <p className="2xl:w-1/2 md:inline-block hidden lg:w-2/3 md:w-1/2 2xl:text-xl lg:text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit pharetra,
-          vel enim, sapien, auctor eleifend maecenas congue elementum. Nisi, a,
-          aliquam praesent nullam urna ut. Rutrum adipiscing suspendisse
-          convallis egestas.
+          Our menu is versatile and features a range of options you can choose
+          from. From some of the most hearty and sumptuous dishes to green
+          healthy salads. We even have options for kids!
         </p>
         <h1 className="md:-rotate-90 -rotate-0 2xl:text-8xl lg:text-7xl md:text-8xl text-6xl md:mb-0 mb-6 text-[#38292A]">
           MENU

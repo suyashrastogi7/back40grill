@@ -17,9 +17,9 @@ const Bar = () => {
       <div className="flex flex-col justify-center items-center grow">
         <img src={patio} alt="patio" className="mb-9" />
         <p className="md:w-full md:text-lg text-xl  text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit tortor
-          dignissim lacus neque neque. Egestas in amet, quis quam vitae. Sit
-          viverra scelerisque ullamcorper amet vulputate a vitae.
+          We believe beverages are an important part of the dining experience.
+          You'll find our bar stacked with all your favorite drinks and
+          cocktails.
         </p>
       </div>
       <div className="border-l border-[#1D1213]"></div>

@@ -16,9 +16,8 @@ const Offers = () => {
           KEEP AN EYE OUT
         </h1>
         <p className="2xl:w-1/2 lg:w-2/3 md:w-1/2 text-xl my-3 mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
-          est vel elit quam lacus ac malesuada. Facilisi urna, dignissim
-          pellentesque mi integer volutpat. Vitae fermentum urna lectus odio.
+          We regularly post our specials, combos, and other offers for the day
+          on our Facebook and Instagram pages. Don't think you'd wanna miss out!
         </p>
         <div className="flex justify-center">
           <img

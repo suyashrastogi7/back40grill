@@ -3,6 +3,7 @@ import React from "react";
 //Images
 import up from "../../Images/up.svg";
 import logo from "../../Images/logo.svg";
+import Union from "../../Images/Union.svg";
 
 const Footer = () => {
   return (
@@ -119,6 +120,8 @@ const Footer = () => {
           Reservations on Call !
         </h1>
       </div>
+
+      <img src={Union} className="mt-7 h-12" alt="thankyou" />
     </div>
   );
 };
