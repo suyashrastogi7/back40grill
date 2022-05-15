@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 //Images
 import eye from "../../Images/eye.svg";
 import facebook from "../../Images/facebook.svg";

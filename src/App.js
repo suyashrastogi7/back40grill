@@ -1,5 +1,5 @@
 import "./App.css";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { Element, Link } from "react-scroll";
 import { Routes, Route } from "react-router-dom";
@@ -20,7 +20,6 @@ import Menupage from "./Components/Menupage";
 
 function App() {
   const containerRef = useRef(null);
-  const [show, setShow] = useState(false);
   const screens = [
     "landing",
     "intro",
@@ -88,8 +87,6 @@ function App() {
                         src={dot}
                         alt="dot"
                         className="h-6 w-6 my-2 opacity-75 hover:opacity-100 cursor-pointer relative"
-                        onMouseEnter={() => setShow(true)}
-                        onMouseLeave={() => setShow(false)}
                       />
                       {/* {show ? (
                         <div className="absolute px-5 py-1 rounded-xl tooltip">
