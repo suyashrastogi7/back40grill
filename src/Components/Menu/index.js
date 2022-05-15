@@ -34,8 +34,7 @@ const Menu = () => {
           VERSATILE
         </h1>
         <h1 className="xl:w-1/2 md:w-2/3 text-xl text-center mb-6 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit pharetra,
-          vel enim, sap
+          To check out the various dishes and ingredients, view our menu.
         </h1>
         <button className="uppercase bg-[#FF971D] hover:bg-[#1D1213] transition ease-in-out 2xl:text-3xl lg:text-2xl md:text-xl text-2xl text-white px-6 py-2 rounded-xl">
           <Link to="/menu">

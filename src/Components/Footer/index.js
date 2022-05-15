@@ -7,7 +7,7 @@ import Union from "../../Images/Union.svg";
 
 const Footer = () => {
   return (
-    <div className="h-screen w-screen bg-[#1D1213] p-7 flex flex-col md:justify-center justify-start items-center">
+    <div className="md:h-screen h-auto w-screen bg-[#1D1213] p-7 flex flex-col md:justify-center justify-start items-center">
       <div className="md:inline-block hidden ">
         <div className="grid grid-cols-5 gap-2 text-white justify-center">
           <div>
@@ -37,13 +37,19 @@ const Footer = () => {
             </h1>
             <p className="my-5 lg:text-xl md:text-lg ">
               Follow us on{" "}
-              <a className="underline" href="https://www.instagram.com">
+              <a
+                className="underline"
+                href="https://www.instagram.com/theback40_parksville/"
+              >
                 Instagram
               </a>
             </p>
             <p className="lg:text-xl md:text-lg">
               Follow us on{" "}
-              <a className="underline" href="https://www.instagram.com">
+              <a
+                className="underline"
+                href="https://m.facebook.com/theback40grill/"
+              >
                 Facebook
               </a>
             </p>
@@ -78,6 +84,7 @@ const Footer = () => {
         <h1 className="text-4xl text-center text-white tracking-wide">
           Reservations on Call !
         </h1>
+        <p className="text-white text-center text-xl mt-2">2509512257</p>
       </div>
 
       <div className="inline-block md:hidden">
@@ -121,6 +128,7 @@ const Footer = () => {
         <h1 className="md:inline-block hidden text-4xl text-white tracking-wide">
           Reservations on Call !
         </h1>
+        <p className="text-white text-center text-xl mt-2">2509512257</p>
       </div>
 
       <img src={Union} className="mt-7 h-12 pb-1" alt="thankyou" />

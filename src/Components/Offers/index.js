@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 //Images
 import eye from "../../Images/eye.svg";
 import facebook from "../../Images/facebook.svg";
@@ -20,17 +22,21 @@ const Offers = () => {
           on our Facebook and Instagram pages. Don't think you'd wanna miss out!
         </p>
         <div className="flex justify-center">
-          <img
-            src={facebook}
-            alt="facebook"
-            className="cursor-pointer lg:scale-100 md:scale-75 border-r-4 lg:pr-4 md:pr-8 pr-5 border-[#1D1213] hover:opacity-75 transition ease-in-out duration-200"
-          />
+          <a href="https://facebook.com/theback40grill/">
+            <img
+              src={facebook}
+              alt="facebook"
+              className="cursor-pointer lg:scale-100 md:scale-75 border-r-4 lg:pr-4 md:pr-8 pr-5 border-[#1D1213] hover:opacity-75 transition ease-in-out duration-200"
+            />
+          </a>
 
-          <img
-            src={instagram}
-            alt="instagram"
-            className="cursor-pointer lg:scale-100 md:scale-75 lg:ml-4 md:ml-0 ml-5 hover:opacity-75 transition ease-in-out duration-200"
-          />
+          <a href="https://www.instagram.com/theback40_parksville/">
+            <img
+              src={instagram}
+              alt="instagram"
+              className="cursor-pointer lg:scale-100 md:scale-75 lg:ml-4 md:ml-0 ml-5 hover:opacity-75 transition ease-in-out duration-200"
+            />
+          </a>
         </div>
       </div>
     </div>
