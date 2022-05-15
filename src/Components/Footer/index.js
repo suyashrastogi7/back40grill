@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="md:inline-block hidden ">
         <div className="grid grid-cols-5 gap-2 text-white justify-center">
           <div>
-            <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl my-5">LOGO</h1>
+            <img src={logo} alt="logo" className="h-36 ml-9 mt-7" />
           </div>
           <div>
             <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl uppercase my-5">
@@ -54,7 +54,11 @@ const Footer = () => {
               alt="up arrow"
               className="h-12 w-12 mx-auto my-5 cursor-pointer hover:opacity-75 transition ease-in-out"
               onClick={() => {
-                window.scrollTo(0, 0);
+                window.scrollTo({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
               }}
             />
             <h1 className="2xl:text-2xl md:text-xl text-center">Back to Top</h1>
@@ -79,9 +83,7 @@ const Footer = () => {
       <div className="inline-block md:hidden">
         <div className="md:grid md:grid-cols-5 flex flex-col md:text-left text-center gap-2 text-white md:justify-center justify-start">
           <div>
-            <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl text-3xl my-5">
-              LOGO
-            </h1>
+            <img src={logo} alt="logo" className="h-36 mx-auto mb-4" />
           </div>
           <div>
             <h1 className="2xl:text-4xl lg:text-3xl md:text-3xl text-3xl uppercase md:my-5 my-1">
@@ -121,7 +123,7 @@ const Footer = () => {
         </h1>
       </div>
 
-      <img src={Union} className="mt-7 h-12" alt="thankyou" />
+      <img src={Union} className="mt-7 h-12 pb-1" alt="thankyou" />
     </div>
   );
 };

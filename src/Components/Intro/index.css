@@ -14,8 +14,17 @@
 }
 
 .custom-shadow {
-  background: radial-gradient(55% 55% at 50% 50%, #1D1213 0%, rgba(196, 196, 196, 0.375) 90%);
+  background: radial-gradient(55% 55% at 50% 50%, #1D1213 0%, rgba(196, 196, 196, 0) 90%);
   background-blend-mode: multiply;
   position: absolute;
   top: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .custom-shadow {
+    background: radial-gradient(55% 55% at 50% 50%, #1D1213 0%, rgba(196, 196, 196, 0) 90%);
+  background-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  }
 }
